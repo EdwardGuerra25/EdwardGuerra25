@@ -1,0 +1,53 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+
+# **Problema #1** 
+# In[3]:
+
+
+def Celsius_to_Kelvin(C):
+    return (C + 273.15)
+
+C= 25
+print("Tú temperature en grados Kelvin es de (273.15) = ",
+                    Celsius_to_Kelvin(C))
+
+
+# **Problema #2**  
+# In[21]:
+
+
+import numpy
+
+
+# In[23]:
+
+
+altura=numpy.array ([1.5, 2.2, 1.56, 1.78, 1.82,1.90, 1.66, 1.91, 1.76, 1.88],float)
+media= altura.mean ()
+print("la media de altura de 10 datos será de:")
+print(media)
+
+
+# **Problema #3** 
+# In[24]:
+
+
+import statistics
+
+
+# In[26]:
+
+
+altura=numpy.array([1.5, 2.2, 1.56, 1.78, 1.82,1.90, 1.66, 1.91, 1.76, 1.88],float)
+
+standar_desviation= statistics.pstdev(altura)
+
+print("La desviacion estandar de la lista es de: " + str(standar_desviation)) 
+
+
+# In[27]:
+
+
+
